@@ -2,7 +2,7 @@ import requests
 import time
 from discord import Webhook, RequestsWebhookAdapter
 
-discord_webhook="https://discord.com/api/webhooks/849512617847291905/ufTvTuitPwUZIKCsdNZdZmIOVUnmmmHYKf3qNjnXQyLD1ed0qXfXj0asjKVKhHR1hAuH"
+discord_webhook="<DISCORD_WEBHOOK>"
 
 def find_appointments():
     from_date = "2021-06-04"
