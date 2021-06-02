@@ -23,8 +23,7 @@ def find_appointments():
                 time.sleep(3600)
         if not found_availability:
             print("no availability found ... retrying in 1 minute")
-            send_notification()
-            time.sleep(10)
+            time.sleep(60)
 
 def send_notification():
     webhook = Webhook.from_url(discord_webhook, adapter=RequestsWebhookAdapter())
